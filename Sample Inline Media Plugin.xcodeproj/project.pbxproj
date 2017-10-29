@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C65EB841FA555C100DC3A9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C65EB831FA555C100DC3A9C /* Foundation.framework */; };
+		4C6F5EDF1FA501D4004259AA /* ICPSampleInlineMediaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F5EDE1FA501D4004259AA /* ICPSampleInlineMediaPlugin.m */; };
+		4C6F5EE91FA54662004259AA /* ICPGithubCommits.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F5EE81FA54662004259AA /* ICPGithubCommits.m */; };
+		4C6F5F071FA54D46004259AA /* ICPGithubCommits.css in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F5F051FA54D32004259AA /* ICPGithubCommits.css */; };
+		4C6F5F081FA54D48004259AA /* ICPGithubCommits.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F5F061FA54D32004259AA /* ICPGithubCommits.mustache */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C65EB831FA555C100DC3A9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6F5EDD1FA501D4004259AA /* ICPSampleInlineMediaPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICPSampleInlineMediaPlugin.h; sourceTree = "<group>"; };
+		4C6F5EDE1FA501D4004259AA /* ICPSampleInlineMediaPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICPSampleInlineMediaPlugin.m; sourceTree = "<group>"; };
+		4C6F5EE21FA54504004259AA /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = ../../../../Applications/Textual.app/Contents/XPCServices/InlineContentLoader.xpc/Contents/Headers; sourceTree = "<group>"; };
+		4C6F5EE71FA54662004259AA /* ICPGithubCommits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICPGithubCommits.h; sourceTree = "<group>"; };
+		4C6F5EE81FA54662004259AA /* ICPGithubCommits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICPGithubCommits.m; sourceTree = "<group>"; };
+		4C6F5F051FA54D32004259AA /* ICPGithubCommits.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ICPGithubCommits.css; sourceTree = "<group>"; };
+		4C6F5F061FA54D32004259AA /* ICPGithubCommits.mustache */ = {isa = PBXFileReference; lastKnownFileType = text; path = ICPGithubCommits.mustache; sourceTree = "<group>"; };
+		8D576316048677EA00EA77CD /* Sample Inline Media Plugin.mediaPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample Inline Media Plugin.mediaPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C65EB841FA555C100DC3A9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* PreferencePaneExample */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F5EE11FA544F9004259AA /* Service Headers */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = PreferencePaneExample;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C65EB831FA555C100DC3A9C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F5F051FA54D32004259AA /* ICPGithubCommits.css */,
+				4C6F5F061FA54D32004259AA /* ICPGithubCommits.mustache */,
+				4C51BE9912D0472300E79CEB /* Documents */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F5EE71FA54662004259AA /* ICPGithubCommits.h */,
+				4C6F5EE81FA54662004259AA /* ICPGithubCommits.m */,
+				4C6F5EDD1FA501D4004259AA /* ICPSampleInlineMediaPlugin.h */,
+				4C6F5EDE1FA501D4004259AA /* ICPSampleInlineMediaPlugin.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* Sample Inline Media Plugin.mediaPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C51BE9912D0472300E79CEB /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				8D576317048677EA00EA77CD /* Info.plist */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		4C6F5EE11FA544F9004259AA /* Service Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F5EE21FA54504004259AA /* Headers */,
+			);
+			name = "Service Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* Sample Inline Media Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "Sample Inline Media Plugin" */;
+			buildPhases = (
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample Inline Media Plugin";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = PreferencePaneExample;
+			productReference = 8D576316048677EA00EA77CD /* Sample Inline Media Plugin.mediaPlugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ICP;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Codeux Software, LLC";
+				TargetAttributes = {
+					8D57630D048677EA00EA77CD = {
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "Sample Inline Media Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* PreferencePaneExample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* Sample Inline Media Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F5F071FA54D46004259AA /* ICPGithubCommits.css in Resources */,
+				4C6F5F081FA54D48004259AA /* ICPGithubCommits.mustache in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F5EDF1FA501D4004259AA /* ICPSampleInlineMediaPlugin.m in Sources */,
+				4C6F5EE91FA54662004259AA /* ICPGithubCommits.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911B08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeux.app-extensions.SampleInlineMediaPlugin";
+				PRODUCT_NAME = "Sample Inline Media Plugin";
+				WRAPPER_EXTENSION = mediaPlugin;
+			};
+			name = Debug;
+		};
+		1DEB911C08733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeux.app-extensions.SampleInlineMediaPlugin";
+				PRODUCT_NAME = "Sample Inline Media Plugin";
+				WRAPPER_EXTENSION = mediaPlugin;
+			};
+			name = Release;
+		};
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = /Applications/Textual.app/Contents/XPCServices/InlineContentLoader.xpc/Contents/MacOS/InlineContentLoader;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"/Applications/Textual.app/Contents/Frameworks/**\"";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"/Applications/Textual.app/Contents/XPCServices/InlineContentLoader.xpc/Contents/Headers/**\"";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = /Applications/Textual.app/Contents/XPCServices/InlineContentLoader.xpc/Contents/MacOS/InlineContentLoader;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"/Applications/Textual.app/Contents/Frameworks/**\"";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"/Applications/Textual.app/Contents/XPCServices/InlineContentLoader.xpc/Contents/Headers/**\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "Sample Inline Media Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911B08733D790010E9CD /* Debug */,
+				1DEB911C08733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "Sample Inline Media Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
